@@ -13,7 +13,8 @@
     "release": "modern release",
     "deploy": "modern deploy",
     "lint": "modern lint",
-    "upgrade": "modern upgrade"
+    "upgrade": "modern upgrade",
+    "start:lec": "start.bat"
   },
   "engines": {
     "node": ">=16.18.1"
@@ -40,13 +41,14 @@
     ]
   },
   "devDependencies": {
-    "@modern-js/monorepo-tools": "2.17.1",
-    "@modern-js/eslint-config": "2.17.1",
-    "@modern-js/tsconfig":"2.17.1",
     "@modern-js-app/eslint-config": "2.17.1",
+    "@modern-js/builder-rspack-provider": "2.17.1",
+    "@modern-js/eslint-config": "2.17.1",
+    "@modern-js/monorepo-tools": "2.17.1",
+    "@modern-js/tsconfig": "2.17.1",
+    "husky": "^8.0.0",
     "lint-staged": "~13.1.0",
-    "prettier": "^2.6.2",
-    "husky": "^8.0.0"
+    "prettier": "^2.6.2"
   },
   "publishConfig": {
     "access": "public",

@@ -5,8 +5,8 @@
       "path": "apps/main/"
     },
     {
-      "name": "main",
-      "path": "apps/main/"
+      "name": "team-history",
+      "path": "apps/team-history/"
     },
     {
       "name": "monorepo",
@@ -36,10 +36,7 @@
       "**/bower_components": true
     },
     //
-    "editor.rulers": [
-      80,
-      120
-    ],
+    "editor.rulers": [80, 120],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,

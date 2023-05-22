@@ -53,5 +53,10 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "execa": "^7.1.1",
+    "inquirer": "^9.2.6",
+    "micro-app": "^1.0.2"
   }
 }

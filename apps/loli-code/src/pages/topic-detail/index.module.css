@@ -1,3 +1,24 @@
 .page-wrapper {
   width: calc(100vw - 200px);
 }
+
+.editor-wrapper {
+  width: 100%;
+}
+
+.editor {
+  width: calc(100vw - 220px);
+  height: 620px;
+}
+
+.header {
+  display: flex;
+  padding: 8px 20px 8px 0;
+  justify-content: space-between;
+}
+
+.selects {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}

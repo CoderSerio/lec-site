@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: yellow;
+}
+
+.menu {
+  height: 100%;
+}
+
+.link {
+  display: block;
+}
+
+.content {
+  margin: 12px 16px;
+}

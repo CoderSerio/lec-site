@@ -8,17 +8,12 @@
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "sourceMap": true,
-    "baseUrl": "./",
     "strict": true,
-    "paths": {
-      "@/*": ["src/*"],
-      "@@/*": ["src/.umi/*"]
-    },
     "allowSyntheticDefaultImports": true
   },
   "include": [
     "mock/**/*",
-    "src/**/*",
+    "apps/**/*",
     "config/**/*",
     ".umirc.ts",
     "typings.d.ts"

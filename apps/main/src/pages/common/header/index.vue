@@ -15,8 +15,8 @@ const menuItems = reactive([
   },
   {
     name: 'OJ系统',
-    click: () => router.push('/'),
-    disable: true,
+    click: () => router.push('/loli-code'),
+    disable: false,
   },
   {
     name: '开源项目',

@@ -5,6 +5,10 @@
       "path": "apps/loli-code/"
     },
     {
+      "name": "resource",
+      "path": "apps/resource/"
+    },
+    {
       "name": "main",
       "path": "apps/main/"
     },
@@ -40,10 +44,7 @@
       "**/bower_components": true
     },
     //
-    "editor.rulers": [
-      80,
-      120
-    ],
+    "editor.rulers": [80, 120],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,

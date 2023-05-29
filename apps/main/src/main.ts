@@ -45,6 +45,15 @@ WujieVue.setupApp({
   exec: true,
 });
 
+WujieVue.setupApp({
+  name: 'resource',
+  url: 'http://localhost:3003',
+  attrs: {},
+  alive: true,
+  degrade: false,
+  exec: true,
+});
+
 WujieVue.preloadApp({ name: 'loli-code', url: 'http://localhost:3002' });
 
 app.mount('#main-app');

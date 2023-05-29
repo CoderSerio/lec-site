@@ -3,17 +3,17 @@
 }
 
 .editor-wrapper {
-  width: 100%;
+  width: calc(100vw - 220px);
 }
 
 .editor {
-  width: calc(100vw - 220px);
+  /* width: calc(100vw - 220px); */
   height: 620px;
 }
 
 .header {
   display: flex;
-  padding: 8px 20px 8px 0;
+  padding: 8px 0;
   justify-content: space-between;
 }
 
@@ -21,4 +21,8 @@
   display: flex;
   justify-content: flex-start;
   gap: 8px;
+}
+
+.selects > * {
+  min-width: 120px;
 }

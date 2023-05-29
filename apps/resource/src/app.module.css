@@ -1,0 +1,6 @@
+.footer {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}

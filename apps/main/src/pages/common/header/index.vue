@@ -19,9 +19,9 @@ const menuItems = reactive([
     disable: false,
   },
   {
-    name: '开源项目',
-    click: () => router.push('/'),
-    disable: true,
+    name: '资源整合',
+    click: () => router.push('/resource'),
+    disable: false,
   },
 ]);
 </script>

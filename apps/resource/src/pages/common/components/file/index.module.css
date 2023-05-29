@@ -1,0 +1,15 @@
+.file {
+  text-align: center;
+  width: 4rem;
+  cursor: pointer;
+}
+
+.file-icon {
+  border-radius: 4px;
+  width: 100%;
+  height: 4rem;
+  /* background: url('https://cdn.onlinewebfonts.com/svg/img_415633.png'); */
+  /* background-size: cover; */
+  /* background-origin: border-box; */
+  /* background-position: center bottom; */
+}

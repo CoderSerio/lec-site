@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/pages/home/index.vue';
 import TeamHistory from '@/pages/team-history/index.vue';
 import LoliCode from '@/pages/luoli-code/index.vue';
+import Resource from '@/pages/resource/index.vue';
 
 const routes = [
   {
@@ -18,6 +19,12 @@ const routes = [
     path: '/loli-code/:page*',
     name: 'loli-code',
     component: LoliCode,
+    // component: () => import('@/pages/team-history/index.vue'),
+  },
+  {
+    path: '/resource/:page*',
+    name: 'resource',
+    component: Resource,
     // component: () => import('@/pages/team-history/index.vue'),
   },
 ];
